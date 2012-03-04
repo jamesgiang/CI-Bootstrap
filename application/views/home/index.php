@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Bootstrap, from Twitter</title>
+    <title>CI Bootstrap</title>
     <?php echo meta('viewport', 'width=device-width, initial-scale=1.0'); ?>
     <?php echo meta('description', ''); ?>
     <?php echo meta('author', ''); ?>
@@ -18,6 +18,7 @@
     <![endif]-->
 
     <!-- Le fav and touch icons -->
+    <?php echo link_tag('assets/img/favicon.ico', 'shortcut icon', 'image/ico'); ?>
     <link rel="shortcut icon" href="images/favicon.ico">
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
