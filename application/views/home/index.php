@@ -6,15 +6,12 @@
 		<?php echo meta('viewport', 'width=device-width, initial-scale=1.0'); ?>
 		<?php echo meta('description', ''); ?>
 		<?php echo meta('author', ''); ?>
-		
 		<?php echo link_tag('assets/css/bootstrap.css'); ?>
 		<?php echo link_tag('assets/css/app.css'); ?>
 		<?php echo link_tag('assets/css/bootstrap-responsive.css'); ?>
-
 		<!--[if lt IE 9]>
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
-
 		<?php
 			$link = array(	'rel' => 'shortcut icon',
 							'href' => 'assets/img/favicon.ico');
@@ -39,9 +36,7 @@
 			echo link_tag($link);
 		?>
 	</head>
-
 	<body>
-
     <div class="navbar navbar-fixed-top">
 			<div class="navbar-inner">
 				<div class="container-fluid">
@@ -50,7 +45,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</a>
-					<a class="brand" href="#">Project name</a>
+					<a class="brand" href="<?php echo site_url(); ?>">CI Bootstrap</a>
 					<div class="nav-collapse">
 						<ul class="nav">
 							<li class="active">
@@ -195,7 +190,6 @@
 				<p>&copy; Company 2012</p>
 			</footer>
 		</div><!--/.fluid-container-->
-
 		<script src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
 		<script src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
 		<script src="<?php echo base_url('assets/js/app.js'); ?>"></script>
