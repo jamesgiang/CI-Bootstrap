@@ -12,17 +12,33 @@
 	<?php echo link_tag('assets/css/bootstrap-responsive.css'); ?>
 	<?php echo link_tag('assets/css/app.css'); ?>
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
       <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- Le fav and touch icons -->
-    <?php echo link_tag('assets/img/favicon.ico', 'shortcut icon', 'image/ico'); ?>
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    <?php
+    	$link = array(	'rel' => 'shortcut icon',
+						'href' => 'assets/img/favicon.ico');
+		echo link_tag($link);
+		$link = array(	'rel' => 'apple-touch-icon',
+						'href' => 'assets/img/apple-touch-icon.png');
+		echo link_tag($link);
+		$link = array(	'rel' => 'apple-touch-icon',
+						'href' => 'assets/img/apple-touch-icon-precomposed.png');
+		echo link_tag($link);
+		$link = array(	'rel' => 'apple-touch-icon',
+						'href' => 'assets/img/apple-touch-icon-57x57-precomposed.png',
+						'sizes' => '57x57');
+		echo link_tag($link);
+		$link = array(	'rel' => 'apple-touch-icon',
+						'href' => 'assets/img/apple-touch-icon-72x72-precomposed.png',
+						'sizes' => '72x72');
+		echo link_tag($link);
+		$link = array(	'rel' => 'apple-touch-icon',
+						'href' => 'assets/img/apple-touch-icon-114x114-precomposed.png',
+						'sizes' => '114x114');
+		echo link_tag($link);
+	?>
   </head>
 
   <body>
