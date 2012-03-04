@@ -1,0 +1,19 @@
+#main-content {
+	width: 360px;
+}
+#main-content h1 {
+	margin: 10px 10px;
+	font-size: 50px;
+	text-align: center;
+}
+#main-content h1 span {
+	color: #bbb;
+}
+
+#main-content p {
+	margin: 1em 0;
+}
+#main-content ul {
+	padding: 0 0 0 40px;
+	margin: 1em 0;
+}
