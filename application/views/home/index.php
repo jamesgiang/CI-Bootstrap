@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php echo doctype('html5'); ?>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -8,9 +8,9 @@
     <meta name="author" content="">
 
     <!-- Le styles -->
-		<?php echo link_tag('assets/css/bootstrap.css'); ?>
-		<?php echo link_tag('assets/css/bootstrap-responsive.css'); ?>
-		<?php echo link_tag('assets/css/app.css'); ?>
+	<?php echo link_tag('assets/css/bootstrap.css'); ?>
+	<?php echo link_tag('assets/css/bootstrap-responsive.css'); ?>
+	<?php echo link_tag('assets/css/app.css'); ?>
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
