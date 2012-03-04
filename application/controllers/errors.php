@@ -2,8 +2,7 @@
 
 class Errors extends CI_Controller {
 
-	public function not_found()
-	{
+	public function not_found() {
 		$this->load->view('errors/404');
 	}
 }
