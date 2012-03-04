@@ -2,8 +2,7 @@
 
 class Home extends CI_Controller {
 
-	public function index()
-	{
+	public function index()	{
 		$data['page_title'] = 'CI Bootstrap';
 		$data['css_file'] = 'home';
 		$data['main_content'] = 'home/index';
@@ -11,5 +10,5 @@ class Home extends CI_Controller {
 	}
 }
 
-/* End of file welcome.php */
-/* Location: ./application/controllers/welcome.php */
+/* End of file home.php */
+/* Location: ./application/controllers/home.php */
