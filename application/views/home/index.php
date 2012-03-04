@@ -138,9 +138,9 @@
 
     </div><!--/.fluid-container-->
     
-		<script src="<?php echo site_url(); ?>assets/js/jquery.js"></script>
-		<script src="<?php echo site_url(); ?>assets/js/bootstrap.js"></script>
-		<script src="<?php echo site_url(); ?>assets/js/app.js"></script>
+		<script src="<?php echo base_url('assets/js/jquery.js'); ?>"></script>
+		<script src="<?php echo base_url('assets/js/bootstrap.js'); ?>"></script>
+		<script src="<?php echo base_url('assets/js/app.js'); ?>"></script>
 		<script>
 			var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
 			(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
